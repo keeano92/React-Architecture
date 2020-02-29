@@ -1,0 +1,28 @@
+.payment-message-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    background-color: #EFF5F5;
+    height: 100%;
+}
+
+
+.message-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.phone-upload-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-success-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

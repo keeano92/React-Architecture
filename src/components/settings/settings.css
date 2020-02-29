@@ -1,0 +1,26 @@
+.settings-header-container {
+    color: rgba(38, 153, 251, 1);
+    background-color: #BCE0FD;
+    height: 56px;
+    margin: 0;
+    width: 100%;
+    justify-content: center;
+    text-align: left;
+    padding: 5% 15% 10% 8%;
+}
+
+.settings-header-name {
+    font-size: 1.2em;
+}
+
+.settings-header-email {
+    font-size: 1em;
+}
+
+.settings-icon{
+    color: rgba(38, 153, 251, 1);
+}
+
+.logout-icon {
+    color: red;
+}

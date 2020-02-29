@@ -1,0 +1,67 @@
+.checkout-title-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(38, 153, 251, 1);
+    font-size: 2.5em;
+    margin-bottom: 3%;
+}
+
+/* .checkout-title-subheader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(38, 153, 251, 1);
+    font-size: 1.5em;
+} */
+
+.checkout-total-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(38, 153, 251, 1);
+    font-size: 2.5em;
+    margin: 2%;
+}
+
+.checkout-form-button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.checkout-form-container {
+    color: rgba(38, 153, 251, 1);
+    font-size: 0.8em;
+}
+
+.checkout-form-textfield {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.checkout-form-titles {
+    margin-left: 7%;
+}
+
+.StripeElement {
+    display: block;
+    margin: 10px 0 20px 0;
+    width: 80%;
+    padding: 10px 14px;
+    box-shadow: rgba(38, 153, 251, 1) 0px 1px 3px, rgba(38, 153, 251, 1) 0px 1px 0px;
+    border-radius: 4px;
+    background: white;
+    color: rgba(38, 153, 251, 1);
+    height: 20px;
+  }
+
+  .cardholdername-field {
+    box-shadow: rgba(38, 153, 251, 1) 0px 1px 3px, rgba(38, 153, 251, 1) 0px 1px 0px;
+    border-radius: 4px;
+    background: white;
+    color: rgba(38, 153, 251, 1);
+    height: 20px;
+    width: 80%;
+  }

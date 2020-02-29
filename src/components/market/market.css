@@ -1,0 +1,29 @@
+.market-header {
+    font-size: 2em;
+    color: rgba(38, 153, 251, 1);
+}
+
+.search-bar {
+    width: 100%;
+}
+
+.to-detail-button {
+    position: fixed;
+    bottom: 8%;
+    margin-left: 332px;
+    font-size: large;
+}
+
+.farm-header {
+    font-size: 22px;
+    padding-left: 2%;
+}
+
+.farm-subheader {
+    font-size: 14px;
+    padding-left: 2%;
+}
+
+.farm-results-container {
+    margin-top: 10%;
+}

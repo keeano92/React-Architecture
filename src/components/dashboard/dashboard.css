@@ -1,0 +1,10 @@
+.menubar {
+    position: fixed;
+    bottom: 0%;
+    color: #2699FB;
+    width: 100%;
+}
+
+.tabView {
+    height: 100%;
+}

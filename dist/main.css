@@ -1,0 +1,745 @@
+body {
+  margin: 0;
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  color: #2699FB;
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  text-align: center;
+  margin: 0%;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.header-container {
+  margin: 37px 50px 21px 50px;
+}
+
+.hero-banner {
+  width: 100%;
+  height: 231.5px;
+}
+
+.button-container {
+  width: 100%;
+  position: relative;
+}
+
+.login-button-container {
+  margin-top: 28.5px;
+  margin-bottom: 30px;
+}
+
+.signup-button-container {
+  margin-bottom: 50px;
+}
+
+.button {
+  background-color:#33bdef;
+  border-radius:5px;
+  border:1px solid #057fd0;
+  display:inline-block;
+  color:#ffffff !important;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:14px 76px;
+  text-decoration:none;
+}
+.button:hover {
+  background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+  background-color:#019ad2;
+}
+.button:active {
+  position:relative;
+  top:1px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  height: 48px;
+  background-color: #BCE0FD;
+  color: #2699FB;
+  padding-top: 19px;
+}
+
+.footer-container {
+    text-align: center;
+    position: fixed;
+    bottom: 0%;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.footer_about_text {
+    color: #2699FB;
+    padding-bottom: 3%;
+    font-size: 1.1em;
+}
+
+.footer_action {
+    height: auto;
+    background-color: #BCE0FD;
+    color: #2699FB;
+    font-size: 1.4em;
+}
+
+.footer_action_text {
+    padding: 3.5%;
+}
+
+.login_textfield {
+    width: 95%;
+}
+
+.backbutton {
+    top: -2%;
+    margin-left: -39px;
+}
+
+.login_header {
+    color: gray;
+    font: bold 3em Arial, Helvetica, sans-serif;
+}
+
+.password_container {
+    margin-top: 10px;
+}
+
+.email_container {
+    margin-top: 50px;
+}
+
+.login_button {
+    margin-top: 20px;
+}
+
+.terms-policy-container {
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13%;
+}
+.signup_header {
+    color: gray;
+    font: bold 3em Arial, Helvetica, sans-serif;
+}
+
+.signup_textfield {
+    width: 95%;
+}
+
+.signup_footer_text {
+    color: #2699FB;
+    position: fixed;
+    bottom: 0%;
+    margin: 31px 80px 112px 129px;
+}
+
+.signup_button {
+    margin-top: 35px;
+}
+.menubar {
+    position: fixed;
+    bottom: 0%;
+    color: #2699FB;
+    width: 100%;
+}
+
+.tabView {
+    height: 100%;
+}
+.dashboard-container {
+    width: 100%;
+    height: 550px;
+}
+
+.farms-container {
+
+}
+
+.review-container {
+    position: fixed;
+    bottom: 0%;
+}
+
+.section-title {
+    color: gray;
+    font: bold 1em Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.no-reviews {
+    color: black;
+    padding: 0% 1% 19% 1%;
+    font: bold 1em Ariel, Helvetica, sans-serif;
+}
+
+.farm-label {
+    color: grey;
+    height: 20px;
+    background-color: white;
+    width: 100%;
+}
+.market-header {
+    font-size: 2em;
+    color: rgba(38, 153, 251, 1);
+}
+
+.search-bar {
+    width: 100%;
+}
+
+.to-detail-button {
+    position: fixed;
+    bottom: 8%;
+    margin-left: 332px;
+    font-size: large;
+}
+
+.farm-header {
+    font-size: 22px;
+    padding-left: 2%;
+}
+
+.farm-subheader {
+    font-size: 14px;
+    padding-left: 2%;
+}
+
+.farm-results-container {
+    margin-top: 10%;
+}
+.cart-header{
+    font-size: 1em;
+    color: rgba(38, 153, 251, 1);
+}
+
+.header-price-total{
+    text-align: center;
+    color: rgba(38, 153, 251, 1);
+    font-size: 2em;
+}
+
+.total-text{
+    font-size: 1em;
+    color: rgba(38, 153, 251, 1);
+    text-align: center;
+}
+
+.cart-map-container {
+    margin-top: 2%;
+    width: 100%;
+    height: 230px;
+    margin-left: 0;
+    margin-right: 0;
+    color: rgba(38, 153, 251, 1);
+    text-align: left;
+}
+
+.farm-address {
+    margin-left: 12%;
+}
+
+.product-list-item{
+    color: rgba(38, 153, 251, 1);
+    text-align: right;
+}
+
+.cart-list-container{
+    margin-top: 5%;
+}
+
+.product-cart-detail-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.settings-header-container {
+    color: rgba(38, 153, 251, 1);
+    background-color: #BCE0FD;
+    height: 56px;
+    margin: 0;
+    width: 100%;
+    justify-content: center;
+    text-align: left;
+    padding: 5% 15% 10% 8%;
+}
+
+.settings-header-name {
+    font-size: 1.2em;
+}
+
+.settings-header-email {
+    font-size: 1em;
+}
+
+.settings-icon{
+    color: rgba(38, 153, 251, 1);
+}
+
+.logout-icon {
+    color: red;
+}
+.password_header {
+    color: gray;
+    font: bold 2em Arial, Helvetica, sans-serif;
+}
+
+.is-legal {
+    font-size: 1.1em;
+}
+
+
+.featured_farm_header_container {
+    position: fixed;
+}
+.profile_pic_container {
+    /* margin-left: 125px;
+    display: block;
+    margin-right: 125px; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #BCE0FD;
+}
+
+.farm-profile-body{
+    text-align: left;
+    padding: 5%;
+}
+
+.farm-profile-name{
+    color: #2699FB;
+    font-size: 1.4em;
+}
+
+.farm-profile-description{
+    color: #2699FB;
+    font-size: 1.0em;
+}
+
+.farm-profile-menu-button{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.farm-profile-map {
+    height: 178px;
+    width: 100%;
+    position: fixed;
+    bottom: auto;
+}
+
+.hours-modal-title {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.5em;
+}
+
+.farm-hours-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 1em;
+}
+
+
+.time_container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.picker {
+    margin: 2%;
+}
+
+.day_header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.3em;
+    color: black;
+    margin-top: 2%;
+}
+
+.day_container {
+     display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.hours_button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.react-clock {
+  display: block;
+  position: relative;
+}
+.react-clock,
+.react-clock *,
+.react-clock *:before,
+.react-clock *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.react-clock__face {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.react-clock__hand {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  right: 50%;
+}
+.react-clock__hand__body {
+  position: absolute;
+  background-color: black;
+  transform: translateX(-50%);
+}
+.react-clock__mark {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  right: 50%;
+}
+.react-clock__mark__body {
+  position: absolute;
+  background-color: black;
+  transform: translateX(-50%);
+}
+.react-clock__mark__number {
+  position: absolute;
+  left: -40px;
+  width: 80px;
+  text-align: center;
+}
+.react-clock__second-hand__body {
+  background-color: red;
+}
+
+.react-time-picker {
+  display: inline-flex;
+  position: relative;
+}
+.react-time-picker,
+.react-time-picker *,
+.react-time-picker *:before,
+.react-time-picker *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.react-time-picker--disabled {
+  background-color: #f0f0f0;
+  color: #6d6d6d;
+}
+.react-time-picker__wrapper {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+  border: thin solid gray;
+}
+.react-time-picker__inputGroup {
+  min-width: calc((4px * 3) +  0.54em * 6  +  0.217em * 2);
+  flex-grow: 1;
+  padding: 0 2px;
+  box-sizing: content-box;
+}
+.react-time-picker__inputGroup__divider {
+  padding: 1px 0;
+  white-space: pre;
+}
+.react-time-picker__inputGroup__input {
+  min-width: 0.54em;
+  height: 100%;
+  position: relative;
+  padding: 0 1px;
+  border: 0;
+  background: none;
+  font: inherit;
+  box-sizing: content-box;
+  -moz-appearance: textfield;
+}
+.react-time-picker__inputGroup__input::-webkit-outer-spin-button,
+.react-time-picker__inputGroup__input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.react-time-picker__inputGroup__input:invalid {
+  background: rgba(255, 0, 0, 0.1);
+}
+.react-time-picker__inputGroup__input--hasLeadingZero {
+  margin-left: -0.54em;
+  padding-left: calc(1px +  0.54em);
+}
+.react-time-picker__inputGroup__amPm {
+  font: inherit;
+  -moz-appearance: menulist;
+}
+.react-time-picker__button {
+  border: 0;
+  background: transparent;
+  padding: 4px 6px;
+}
+.react-time-picker__button:enabled {
+  cursor: pointer;
+}
+.react-time-picker__button:enabled:hover .react-time-picker__button__icon,
+.react-time-picker__button:enabled:focus .react-time-picker__button__icon {
+  stroke: #0078d7;
+}
+.react-time-picker__button:disabled .react-time-picker__button__icon {
+  stroke: #6d6d6d;
+}
+.react-time-picker__button svg {
+  display: inherit;
+}
+.react-time-picker__clock {
+  width: 200px;
+  height: 200px;
+  max-width: 100vw;
+  padding: 25px;
+  background-color: white;
+  border: thin solid #a0a096;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+}
+.react-time-picker__clock--closed {
+  display: none;
+}
+
+.add-produce-container{
+    margin-top: 8%;
+}
+.produce-profile-total{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: rgba(38, 153, 251, 1);
+    font-size: 3em;
+}
+
+.product-detail-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30%;
+}
+
+.product-name-container {
+    width: 50%;
+    font-size: 1.3em;
+    padding-left: 5%;
+}
+
+.product-price-container {
+    width: 50%;
+    font-size: 1.3em;
+    color: rgba(38, 153, 251, 1);
+    text-align: right;
+    padding-right: 5%;
+}
+
+.product-qty-main-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.product-qty-text-container {
+    width: 50%;
+    font-size: 1.3em;
+    padding-left: 5%;
+}
+
+.product-qty-form-control-container {
+    width: 50%;
+    font-size: 1.3em;
+    color: rgba(38, 153, 251, 1);
+    text-align: right;
+    padding-right: 5%;
+}
+
+.add-to-cart-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.product-operations-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.edit-button {
+    color: grey;
+}
+
+.delete-button {
+    color: red;
+}
+.list-products-list-container {
+    margin-left: 5%;
+}
+.coming-soon-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.checkout-title-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(38, 153, 251, 1);
+    font-size: 2.5em;
+    margin-bottom: 3%;
+}
+
+/* .checkout-title-subheader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(38, 153, 251, 1);
+    font-size: 1.5em;
+} */
+
+.checkout-total-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(38, 153, 251, 1);
+    font-size: 2.5em;
+    margin: 2%;
+}
+
+.checkout-form-button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.checkout-form-container {
+    color: rgba(38, 153, 251, 1);
+    font-size: 0.8em;
+}
+
+.checkout-form-textfield {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.checkout-form-titles {
+    margin-left: 7%;
+}
+
+.StripeElement {
+    display: block;
+    margin: 10px 0 20px 0;
+    width: 80%;
+    padding: 10px 14px;
+    box-shadow: rgba(38, 153, 251, 1) 0px 1px 3px, rgba(38, 153, 251, 1) 0px 1px 0px;
+    border-radius: 4px;
+    background: white;
+    color: rgba(38, 153, 251, 1);
+    height: 20px;
+  }
+
+  .cardholdername-field {
+    box-shadow: rgba(38, 153, 251, 1) 0px 1px 3px, rgba(38, 153, 251, 1) 0px 1px 0px;
+    border-radius: 4px;
+    background: white;
+    color: rgba(38, 153, 251, 1);
+    height: 20px;
+    width: 80%;
+  }
+.terms-container {
+   display: flex;
+   width: 100%;
+   height: 100%;
+   flex-direction: column;
+   overflow: auto;
+   justify-content: center;
+   align-items: center;
+}
+
+#iframe {
+    height: 635px;
+}
+
+.payment-message-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    background-color: #EFF5F5;
+    height: 100%;
+}
+
+
+.message-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.phone-upload-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-success-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*# sourceMappingURL=main.css.map*/

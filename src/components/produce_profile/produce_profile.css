@@ -1,0 +1,69 @@
+.produce-profile-total{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: rgba(38, 153, 251, 1);
+    font-size: 3em;
+}
+
+.product-detail-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30%;
+}
+
+.product-name-container {
+    width: 50%;
+    font-size: 1.3em;
+    padding-left: 5%;
+}
+
+.product-price-container {
+    width: 50%;
+    font-size: 1.3em;
+    color: rgba(38, 153, 251, 1);
+    text-align: right;
+    padding-right: 5%;
+}
+
+.product-qty-main-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.product-qty-text-container {
+    width: 50%;
+    font-size: 1.3em;
+    padding-left: 5%;
+}
+
+.product-qty-form-control-container {
+    width: 50%;
+    font-size: 1.3em;
+    color: rgba(38, 153, 251, 1);
+    text-align: right;
+    padding-right: 5%;
+}
+
+.add-to-cart-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.product-operations-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.edit-button {
+    color: grey;
+}
+
+.delete-button {
+    color: red;
+}

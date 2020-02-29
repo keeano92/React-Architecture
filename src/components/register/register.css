@@ -1,0 +1,19 @@
+.signup_header {
+    color: gray;
+    font: bold 3em Arial, Helvetica, sans-serif;
+}
+
+.signup_textfield {
+    width: 95%;
+}
+
+.signup_footer_text {
+    color: #2699FB;
+    position: fixed;
+    bottom: 0%;
+    margin: 31px 80px 112px 129px;
+}
+
+.signup_button {
+    margin-top: 35px;
+}

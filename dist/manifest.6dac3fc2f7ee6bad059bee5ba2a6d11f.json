@@ -1,0 +1,47 @@
+{
+  "icons": [
+    {
+      "src": "/icon_1024x1024.f57a051dab1707a272dadc5bcbab5840.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_512x512.b6f95ff6a0cd80bf7fb0ff8fab964ad5.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_384x384.bc7278d1ebab41e660e7eafd51a88dec.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_256x256.6ae6e7586451f791fd8e9e528ba67b13.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.d86953f595766ae5f04d6655bb81a31f.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.752c6e3fb1e787059351ba197911768a.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.3db02a6deeb98dc8f7749075150084d9.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "Farmestar",
+  "short_name": "Farmestar",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "/",
+  "description": "Bringing farmers and consumers together.",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff"
+}

@@ -1,0 +1,52 @@
+.profile_pic_container {
+    /* margin-left: 125px;
+    display: block;
+    margin-right: 125px; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #BCE0FD;
+}
+
+.farm-profile-body{
+    text-align: left;
+    padding: 5%;
+}
+
+.farm-profile-name{
+    color: #2699FB;
+    font-size: 1.4em;
+}
+
+.farm-profile-description{
+    color: #2699FB;
+    font-size: 1.0em;
+}
+
+.farm-profile-menu-button{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.farm-profile-map {
+    height: 178px;
+    width: 100%;
+    position: fixed;
+    bottom: auto;
+}
+
+.hours-modal-title {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.5em;
+}
+
+.farm-hours-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 1em;
+}
+

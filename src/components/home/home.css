@@ -1,0 +1,32 @@
+.dashboard-container {
+    width: 100%;
+    height: 550px;
+}
+
+.farms-container {
+
+}
+
+.review-container {
+    position: fixed;
+    bottom: 0%;
+}
+
+.section-title {
+    color: gray;
+    font: bold 1em Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.no-reviews {
+    color: black;
+    padding: 0% 1% 19% 1%;
+    font: bold 1em Ariel, Helvetica, sans-serif;
+}
+
+.farm-label {
+    color: grey;
+    height: 20px;
+    background-color: white;
+    width: 100%;
+}

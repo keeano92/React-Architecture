@@ -1,0 +1,30 @@
+.time_container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.picker {
+    margin: 2%;
+}
+
+.day_header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.3em;
+    color: black;
+    margin-top: 2%;
+}
+
+.day_container {
+     display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.hours_button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

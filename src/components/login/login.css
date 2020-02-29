@@ -1,0 +1,59 @@
+.footer-container {
+    text-align: center;
+    position: fixed;
+    bottom: 0%;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.footer_about_text {
+    color: #2699FB;
+    padding-bottom: 3%;
+    font-size: 1.1em;
+}
+
+.footer_action {
+    height: auto;
+    background-color: #BCE0FD;
+    color: #2699FB;
+    font-size: 1.4em;
+}
+
+.footer_action_text {
+    padding: 3.5%;
+}
+
+.login_textfield {
+    width: 95%;
+}
+
+.backbutton {
+    top: -2%;
+    margin-left: -39px;
+}
+
+.login_header {
+    color: gray;
+    font: bold 3em Arial, Helvetica, sans-serif;
+}
+
+.password_container {
+    margin-top: 10px;
+}
+
+.email_container {
+    margin-top: 50px;
+}
+
+.login_button {
+    margin-top: 20px;
+}
+
+.terms-policy-container {
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13%;
+}

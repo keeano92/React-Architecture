@@ -1,0 +1,45 @@
+.cart-header{
+    font-size: 1em;
+    color: rgba(38, 153, 251, 1);
+}
+
+.header-price-total{
+    text-align: center;
+    color: rgba(38, 153, 251, 1);
+    font-size: 2em;
+}
+
+.total-text{
+    font-size: 1em;
+    color: rgba(38, 153, 251, 1);
+    text-align: center;
+}
+
+.cart-map-container {
+    margin-top: 2%;
+    width: 100%;
+    height: 230px;
+    margin-left: 0;
+    margin-right: 0;
+    color: rgba(38, 153, 251, 1);
+    text-align: left;
+}
+
+.farm-address {
+    margin-left: 12%;
+}
+
+.product-list-item{
+    color: rgba(38, 153, 251, 1);
+    text-align: right;
+}
+
+.cart-list-container{
+    margin-top: 5%;
+}
+
+.product-cart-detail-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
